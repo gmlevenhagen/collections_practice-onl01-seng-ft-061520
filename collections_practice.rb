@@ -45,7 +45,10 @@ end
 
 
 def add_s(array)
-  array.find_all do |word|
-    word[2] == "s"
+  if array.collect do |word|
+    word[1] == "s"
+  else
+    word + "s"
+  end
   end
 end
