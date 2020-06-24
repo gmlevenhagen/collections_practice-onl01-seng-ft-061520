@@ -36,10 +36,9 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.inject do |numbers|
-    numbers += sum
+  sum = 0
+  array.each do |num|
+    sum += num
   end
   sum
 end
-
-sum_array([11,4,7,8,9,100,134])
