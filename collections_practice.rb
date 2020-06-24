@@ -1,3 +1,3 @@
 def sort_array_asc(array)
-  while array.sort
+   array.sort
 end
