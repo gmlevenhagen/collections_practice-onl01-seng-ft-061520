@@ -10,6 +10,6 @@ end
 
 def sort_array_char_count(array)
   array.sort do |left, right|
-    right <=> left
+    right.length <=> left.length
   end
 end
